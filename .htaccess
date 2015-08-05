@@ -1,0 +1,6 @@
+<Files *.css>
+SetOutputFilter DEFLATE
+</Files>
+<Files *.js>
+SetOutputFilter DEFLATE
+</Files>

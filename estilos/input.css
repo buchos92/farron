@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+#te{
+	text-align:center;
+	color:#CCC;
+	}
+
+#divenviar{
+	position:relative;
+	margin:10px auto;
+	padding:0px;
+	width:130px;
+	
+	
+	}
+#inputfoto{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0pc;
+	width:100%;
+	height:100%;
+	opacity:0;
+		}
+#descripcion{
+	display: block;
+	width:120px;
+	height:50px;
+	margin:0px auto;
+	padding: 10px;
+    border: solid 5px #c9c9c9;
+    transition: border 0.3s;
+	resize:none;
+	
+	}
+#descripcion:focus{
+	border: solid 5px #969696;
+	}
+#botonEnviar{
+	margin:10px auto;
+	width:150px;
+	display:block;
+	background-color:#272727;
+	border:0px solid #000;
+	height:30px;
+	color: #fff;
+	font-weight:bold;
+	}
+#botonEnviar:hover{
+	background-color: #383838;
+	cursor:pointer; 
+	
+	}
+
+#inputfoto:hover{
+	cursor:pointer; 
+	
+	}
+.error{
+	background-color:#000;
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	
+	
+	}
+#comenFoto{
+	width:95%;
+	background: url(../imagenes/comentar.png) no-repeat 5px center; 
+	border-top:1px solid rgba(162,162,162,.3);
+	border-left: 0px solid #000;
+	border-right: 0px solid #000;
+	border-bottom:0px solid #000;	
+	margin-left:10px;
+	margin-top:7px;
+	padding-left:35px;
+	padding-right:10px;
+	padding-top:15px;
+	padding-bottom:15px;
+	resize:none;
+	outline:none;
+	box-sizing:border-box;
+	
+	
+	}
+  
+
+@media screen and (max-width: 250px) {
+		
+	}
+@media screen and (max-width: 00px) {
+	
+	}
+	
